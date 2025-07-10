@@ -1,8 +1,33 @@
-fastapi
-uvicorn[standard]
-flet
-requests
-sqlalchemy
-databases[sqlite]
-python-dotenv
-fastapi-websocket-pubsub
+# API y servidor
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+pydantic>=1.10.7
+python-multipart>=0.0.6
+
+# Interfaz de usuario
+flet>=0.7.0
+
+# Base de datos
+sqlalchemy>=2.0.0
+databases[sqlite]>=0.7.0
+asyncio>=3.4.3
+
+# Autenticación y seguridad
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+
+# Comunicación en tiempo real
+fastapi-websocket-pubsub>=0.3.1
+websockets>=11.0.3
+
+# Generación de reportes
+reportlab>=4.0.0
+pandas>=2.0.0
+matplotlib>=3.7.1
+openpyxl>=3.1.2
+
+# Utilidades
+pytz>=2023.3
+requests>=2.28.2
+pillow>=9.5.0
