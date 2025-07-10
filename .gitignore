@@ -4,6 +4,32 @@
 ### Trae ###
 .trae
 
+### CaféSync Specific ###
+# SQLite database files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Environment variables
+.env
+
+# Log files
+*.log
+logs/
+
+# Generated reports
+reports/
+*.pdf
+*.csv
+
+# Temporary files
+.temp/
+tmp/
+
+# Certificate files
+*.pem
+*.crt
+*.key
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
