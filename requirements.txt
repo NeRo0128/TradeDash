@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+flet
+requests
+sqlalchemy
+databases[sqlite]
+python-dotenv
+fastapi-websocket-pubsub
